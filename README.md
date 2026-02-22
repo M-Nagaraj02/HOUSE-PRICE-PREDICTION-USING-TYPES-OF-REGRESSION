@@ -16,6 +16,7 @@ The dataset is synthetically generated using NumPy
 * Price
   
 The objective is to understand how different regression models perform and compare their results.
+
 ---
 ## 📊 Dataset
 The dataset is artificially generated using NumPy.
