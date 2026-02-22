@@ -171,7 +171,7 @@ House-Price-Regression/
 ## 📊 Performance Comparison
 ```
 Model                        	R2 Score	Performance
-Simple Linear Regression      	-0.02	     Poor
+Simple Linear Regression      	-0.02	   Poor
 Multiple Linear Regression	     0.93   	Excellent
 Polynomial Regression            0.03     	Weak
 ```
