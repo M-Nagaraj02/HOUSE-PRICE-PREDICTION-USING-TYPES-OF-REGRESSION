@@ -7,16 +7,19 @@ The project covers:
  * Simple Linear Regression
  * Multiple Linear Regression
  * Polynomial Regression
-The dataset is synthetically generated using NumPy and includes features like:
+ * 
+The dataset is synthetically generated using NumPy 
 
 * Area
 * Bedrooms
 * Age
 * Price
+* 
 The objective is to understand how different regression models perform and compare their results.
 ---
 ## 📊 Dataset
 The dataset is artificially generated using NumPy.
+
 Features:
 
 * area – Size of house (sq.ft)
@@ -57,6 +60,7 @@ Y = df["price"]
 * MSE: 1549.20
 * RMSE: 39.35
 * R2 Score: -0.02
+
 **📌 Insight**
 
 * Poor performance
@@ -66,9 +70,11 @@ Y = df["price"]
 ## 📊 Visualizations
 
 **Kde plot visualization of using Seaborn:**
+
 <img width="480" height="393" alt="image" src="https://github.com/user-attachments/assets/fcecb1a8-fb89-48ca-9812-fc21468b8bd0" />
 
 **Scatterplot visualization of using Matplotlib**
+
 <img width="695" height="547" alt="image" src="https://github.com/user-attachments/assets/38b98d1f-3bb0-4447-b5a4-6cc12e51b4c9" />
 
 ---
@@ -86,12 +92,14 @@ X = df[["area","bedrooms","age"]]
 Y = df["price"]
 ```
 ## 📊 Model Evaluation
+
 **🔎 Results**
 
 * MAE: 8.47
 * MSE: 99.70
 * RMSE: 9.98
 * R2 Score: 0.93
+  
 **📌 Insight**
 
 * Excellent performance
@@ -105,12 +113,15 @@ Multiple Linear Regression performed significantly better than Simple Linear Reg
 ## 📊 Visualizations
 
 **Kde plot visualization of using Seaborn:**
+
 <img width="500" height="393" alt="image" src="https://github.com/user-attachments/assets/3bd661ca-1f02-4e3f-83ba-c69fc027712f" />
 
 **Scatterplot visualization of using Matplotlib:**
+
 <img width="463" height="393" alt="image" src="https://github.com/user-attachments/assets/1bcdaec8-a043-4a9b-aa78-407143788be9" />
 
 **Lineplot visualization of using Seaborn:**
+
 <img width="463" height="393" alt="image" src="https://github.com/user-attachments/assets/171b94e6-ab84-443a-aeed-69ae23c620c2" />
 
 ---
@@ -136,6 +147,7 @@ from sklearn.preprocessing import PolynomialFeatures
 ## 📊 Visualizations
 
 **Scatterplot visualization of using Matplotlib:**
+
 <img width="463" height="393" alt="image" src="https://github.com/user-attachments/assets/cc4cd80f-6950-467e-9f49-300ffe5a0db0" />
 
 ---
