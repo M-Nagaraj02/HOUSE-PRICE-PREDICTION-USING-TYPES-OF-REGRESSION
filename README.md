@@ -7,14 +7,14 @@ The project covers:
  * Simple Linear Regression
  * Multiple Linear Regression
  * Polynomial Regression
- * 
+   
 The dataset is synthetically generated using NumPy 
 
 * Area
 * Bedrooms
 * Age
 * Price
-* 
+  
 The objective is to understand how different regression models perform and compare their results.
 ---
 ## 📊 Dataset
